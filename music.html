@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kammo’s Birthday — Music</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+
+  <body>
+    <header class="topbar">
+      <div class="brand">
+        <span class="dot"></span>
+        <span class="brand-text">Kammo’s Birthday</span>
+      </div>
+      <nav class="nav">
+        <a href="./index.html">Game</a>
+        <a href="./letter.html">Letter</a>
+        <a class="active" href="./music.html">Music</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="section">
+        <div class="section-head">
+          <h2>🎶 Music for You</h2>
+          <p class="muted">Songs that remind me of you / us / your annoying personality ❤️</p>
+        </div>
+
+        <div class="music-grid">
+          <div class="music-card">
+            <h3>My song picks</h3>
+
+            <ul class="songs" id="songsList">
+              <li><span class="song">Song 1</span> <span class="note">— this is so you</span></li>
+              <li><span class="song">Song 2</span> <span class="note">— main character energy</span></li>
+              <li><span class="song">Song 3</span> <span class="note">— makes me think of you</span></li>
+              <li><span class="song">Song 4</span> <span class="note">— your mood swings 😭</span></li>
+              <li><span class="song">Song 5</span> <span class="note">— soft & sweet</span></li>
+              <li><span class="song">Song 6</span> <span class="note">— okay fine i miss you</span></li>
+            </ul>
+
+            <div class="row" style="margin-top: 14px">
+              <a class="btn primary" href="https://open.spotify.com/playlist/5bAq1K4cvcDhXSBwAOg5rn?si=ZRaKmm9hTAinEdknXkULfg&pi=gzT6FBJSSrWzX" target="_blank" rel="noreferrer">Open playlist</a>
+              <button class="btn ghost" id="shuffleBtn" type="button">Shuffle titles</button>
+            </div>
+          </div>
+
+          <div class="music-card">
+            <h3>Small note</h3>
+            <p class="muted">
+              You don’t need to “deserve” this. It’s your birthday.
+              <br />
+              But you do need to fail the game a little more.
+            </p>
+            <div class="quote">
+              “Happy Birthday. I adore you. Now suffer.”
+              <span class="muted">— Mansi</span>
+            </div>
+
+            <div class="row" style="margin-top: 14px">
+              <a class="btn ghost" href="./index.html">Back to game</a>
+              <a class="btn ghost" href="./letter.html">Go to letter</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <footer class="footer">
+        <p class="muted">Made by Mansi • For Kammo • Happy Birthday 🎂</p>
+      </footer>
+    </main>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
