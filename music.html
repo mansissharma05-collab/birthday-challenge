@@ -1,86 +1,44 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Kammo’s Birthday — Music</title>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Music Page</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
 
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <div class="container">
+    <h1 class="title">Music For You 🎶</h1>
+    <p class="subtitle">
+      A few songs that remind me of you — and the vibe.
+    </p>
 
-    <link rel="stylesheet" href="./style.css" />
-  </head>
-
-  <body>
-    <header class="topbar">
-      <div class="brand">
-        <span class="dot"></span>
-        <span class="brand-text">Kammo’s Birthday</span>
+    <div class="music-page">
+      <div class="music-box">
+        <h3>1) Song Title</h3>
+        <p>Write why this song reminds you of him.</p>
       </div>
-      <nav class="nav">
-        <a href="./index.html">Game</a>
-        <a href="./letter.html">Letter</a>
-        <a class="active" href="./music.html">Music</a>
-      </nav>
-    </header>
 
-    <main>
-      <section class="section">
-        <div class="section-head">
-          <h2>🎶 Music for You</h2>
-          <p class="muted">Songs that remind me of you / us / your annoying personality ❤️</p>
-        </div>
+      <div class="music-box">
+        <h3>2) Song Title</h3>
+        <p>Write why this song reminds you of him.</p>
+      </div>
 
-        <div class="music-grid">
-          <div class="music-card">
-            <h3>My song picks</h3>
+      <div class="music-box">
+        <h3>3) Song Title</h3>
+        <p>Write why this song reminds you of him.</p>
+      </div>
 
-            <ul class="songs" id="songsList">
-              <li><span class="song">Song 1</span> <span class="note">— this is so you</span></li>
-              <li><span class="song">Song 2</span> <span class="note">— main character energy</span></li>
-              <li><span class="song">Song 3</span> <span class="note">— makes me think of you</span></li>
-              <li><span class="song">Song 4</span> <span class="note">— your mood swings 😭</span></li>
-              <li><span class="song">Song 5</span> <span class="note">— soft & sweet</span></li>
-              <li><span class="song">Song 6</span> <span class="note">— okay fine i miss you</span></li>
-            </ul>
+      <!-- optional playlist button -->
+      <a class="btn" href="https://youtube.com" target="_blank">Open Playlist ▶️</a>
+    </div>
 
-            <div class="row" style="margin-top: 14px">
-              <!-- edit this playlist link -->
-              <a class="btn primary" id="playlistBtn" href="https://www.youtube.com" target="_blank" rel="noreferrer">
-                Open playlist
-              </a>
-              <button class="btn ghost" id="shuffleBtn" type="button">
-                Shuffle titles
-              </button>
-            </div>
+    <div class="nav">
+      <a class="link" href="letter.html">← Back to Letter</a>
+      <a class="link" href="index.html">Back to Home</a>
+    </div>
+  </div>
 
-            <div class="row" style="margin-top: 14px">
-              <a class="btn ghost" href="./index.html">Back to game</a>
-              <a class="btn ghost" href="./letter.html">Go to letter</a>
-            </div>
-          </div>
-
-          <div class="music-card">
-            <h3>Small note</h3>
-            <p class="muted">
-              You don’t need to “deserve” this. It’s your birthday.
-              <br />
-              But you do need to fail the game a little more.
-            </p>
-            <div class="quote">
-              “Happy Birthday. I adore you. Now suffer.”
-              <span class="muted">— Mansi</span>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <footer class="footer">
-        <p class="muted">Made by Mansi • For Kammo • Happy Birthday 🎂</p>
-      </footer>
-    </main>
-
-    <script src="./script.js"></script>
-  </body>
+</body>
 </html>
